@@ -18,7 +18,12 @@ class AnomalyExtensionPageLinkTypeCreatePageLinkTypeFields extends Migration
      * @var array
      */
     protected $fields = [
-        'title'       => 'anomaly.field_type.text',
+        'title' => [
+            'type' => 'anomaly.field_type.textarea',
+            "config" => [
+                "rows" => 1,
+            ]
+        ],
         'page'        => [
             'type'   => 'anomaly.field_type.relationship',
             'config' => [
