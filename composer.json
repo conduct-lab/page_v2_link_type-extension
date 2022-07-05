@@ -1,0 +1,30 @@
+{
+    "name": "conduct_lab/page_v2_link_type-extension",
+    "type": "streams-addon",
+    "description": "A page link type for the Navigation module with optional image and anchor tag.",
+    "keywords": [
+        "streams",
+        "link type",
+        "pages"
+    ],
+    "homepage": "https://behaviorlab.io/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Behavior CPH",
+            "email": "support@behaviorlab.io",
+            "homepage": "https://behaviorlab.io/",
+            "role": "Owner"
+        },
+        {
+            "name": "Claus Hjort Bube",
+            "homepage": "https://behaviorlab.io/staff/chb",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ConductLab\\PageV2LinkTypeExtension\\": "src/"
+        }
+    }
+}
