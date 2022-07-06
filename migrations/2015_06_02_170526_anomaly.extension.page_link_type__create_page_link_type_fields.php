@@ -31,7 +31,8 @@ class AnomalyExtensionPageLinkTypeCreatePageLinkTypeFields extends Migration
                 'related' => 'Anomaly\PagesModule\Page\PageModel',
             ],
         ],
-        'anchor_link'       => 'anomaly.field_type.text',
+        'anchor_tag'       => 'anomaly.field_type.text',
+        'query_param'       => 'anomaly.field_type.text',
         'description' => 'anomaly.field_type.textarea',
         'image' => [
             'type' => 'anomaly.field_type.file',

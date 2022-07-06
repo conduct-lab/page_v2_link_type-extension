@@ -10,8 +10,13 @@ return [
         'instructions' => 'Choose the page this link should point to.',
         'placeholder'  => 'Choose a page...',
     ],
-    'anchor_link'        => [
-        'name'         => 'Anchor Link',
+    'anchor_tag'        => [
+        'name'         => 'Anchor tag',
+        'instructions' => 'Focus on this anchor link on the page.',
+        'placeholder'  => '#some-unique-id',
+    ],
+    'query_param'        => [
+        'name'         => 'Query parameters',
         'instructions' => 'Focus on this anchor link on the page.',
         'placeholder'  => '#some-unique-id',
     ],

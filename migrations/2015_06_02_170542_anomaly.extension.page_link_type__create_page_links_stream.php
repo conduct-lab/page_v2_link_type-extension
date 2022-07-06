@@ -35,7 +35,11 @@ class AnomalyExtensionPageLinkTypeCreatePageLinksStream extends Migration
         'page' => [
             'required' => true,
         ],
-        'anchor_link' => [
+        'query_param' => [
+            'required' => false,
+            'translatable' => false,
+        ],
+        'anchor_tag' => [
             'required' => false,
             'translatable' => false,
         ],
