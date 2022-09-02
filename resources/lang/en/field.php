@@ -17,8 +17,7 @@ return [
     ],
     'query_param'        => [
         'name'         => 'Query parameters',
-        'instructions' => 'Focus on this anchor link on the page.',
-        'placeholder'  => '#some-unique-id',
+        'placeholder'  => '?some=value&another=value',
     ],
     'image' => [
         'name'         => 'Image',
